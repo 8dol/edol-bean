@@ -1,6 +1,6 @@
 {
   "name": "edol-bean",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Parse java class and auto assist tip for dev stage",
   "main": "index.js",
   "dependencies": {
@@ -15,7 +15,7 @@
     "8dol"
   ],
   "author": {
-    "name": "Frank",
+    "name": "minfrank",
     "email": "pghmitm@gmail.com"
   },
   "license": "MIT",

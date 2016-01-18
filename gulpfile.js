@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var baseDir = "/Users/frank/IdeaProjects/service/core/api/target/classes/com/edol/core/domain/box/";
 
-var modalTemplate = "class {0} { constructor({1}) {{2}}}";
+var modalTemplate = "export class {0} { constructor({1}) {{2}}}";
 
 fs.readdir(baseDir, function (err, files) {
     files = files.map(function (item) {
@@ -47,27 +47,3 @@ fs.readdir(baseDir, function (err, files) {
     });
 
 });
-
-
-//parse([baseDir + 'Box.class'], function (err, rs) {
-//    console.info(rs);
-//    for (var clzName in rs) {
-//        var clz = rs[clzName];
-//        clz.constructors; // constructors, each constructor includes property scope, name, args
-//        clz.fields; // an array of fields
-//        clz.methods; // an array of methods;
-//        clz.methods[0]; // method, includes property scope, ret, name, args
-//    }
-//});
-
-//var clazzes = ['./Config.class'];
-//
-//parser.parse(clazzes, function (err, rs) {
-//    for (var clzName in rs) {
-//        var clz = rs[clzName];
-//        clz.constructors; // constructors, each constructor includes property scope, name, args
-//        clz.fields; // an array of fields
-//        clz.methods; // an array of methods;
-//        clz.methods[0]; // method, includes property scope, ret, name, args
-//    }
-//});
