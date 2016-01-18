@@ -1,0 +1,25 @@
+{
+  "name": "edol-bean",
+  "version": "0.0.1",
+  "description": "Parse java class and auto assist tip for dev stage",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "java-class-parser": "0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/8dol/edol-bean.git"
+  },
+  "keywords": [
+    "8dol"
+  ],
+  "author": {
+    "name": "Frank",
+    "email": "pghmitm@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
